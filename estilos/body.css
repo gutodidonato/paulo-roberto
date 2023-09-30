@@ -1,0 +1,43 @@
+@import url(padrao.css);
+
+main {
+  height: 2000px;
+}
+
+#treine-comigo {
+  width: 95%;
+  background-color: rgb(255, 255, 255);
+  height: 90px;
+  margin: 0 auto;
+  height: 50%;
+  box-shadow: -20px 0px 20px 3px #544c4c;
+}
+
+#treine-comigo .bloco-imagem {
+  background-color: var(--paleta-12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  gap: 22px;
+}
+
+main .bloco-treino {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  margin: 50px auto;
+}
+
+main .bloco-treino div {
+  display: flex;
+  padding: 30px;
+  width: 15%;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--paleta-1b);
+}

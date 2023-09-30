@@ -1,0 +1,35 @@
+@import url(padrao.css);
+
+body {
+  background-color: gray;
+}
+
+header {
+  background-color: var(--cor-2);
+  margin: 10px auto 0;
+  border-radius: 53px 200px 0px 0;
+  width: 95%;
+  box-shadow: -18px 11px 19px 7px #534b4b;
+}
+
+header .topo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+  height: 100px;
+}
+
+header nav a {
+  background: var(--paleta-1b);
+  padding: 20px;
+  letter-spacing: 5px;
+  border-radius: 24px;
+}
